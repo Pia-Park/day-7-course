@@ -59,7 +59,9 @@ public class Instructor {
 	public void setExYear(int exYear) {
 		if(exYear > 1) {
 			this.exYear = exYear;
-		} 
+		} else {
+			this.exYear = 1;
+		}
 	}
 	
 //	public void getStatus() {
