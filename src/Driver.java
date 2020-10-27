@@ -18,7 +18,7 @@ public class Driver {
 		for(Course c : cList) {
 			
 			if(c.getInstructor().getLName().equalsIgnoreCase(name)) {
-				return c.getCName();
+				return c.getInstructor().getLName() + "'s course is " +c.getCName() + ".";
 			
 			}
 			
